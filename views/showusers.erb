@@ -1,0 +1,32 @@
+<h1> Журнал записей клиентов </h1>
+
+  <div class="container py-5">
+  	  <div class="card shadow-sm">
+      <div class="card-body">
+        <table class="table table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>ID</th>
+              <th>Имя</th>
+              <th>Телефон</th>
+              <th>Дата</th>
+              <th>Мастер</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @users.each do |user| %>
+              <tr>
+                <td><%= user[0] %></td> <!-- ID -->
+                <td><%= user[1] %></td> <!-- username -->
+                <td><%= user[2] %></td> <!-- phone -->
+                <td><%= user[3] %></td> <!-- datetime -->
+                <td><%= user[4] %></td> <!-- master -->
+                <td>
+
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>

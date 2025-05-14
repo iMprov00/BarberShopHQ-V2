@@ -1,2 +1,4 @@
 
 barbershop.db
+barbershop.db-wal
+barbershop.db-shm

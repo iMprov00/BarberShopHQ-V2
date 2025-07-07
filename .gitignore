@@ -2,3 +2,4 @@
 barbershop.db
 barbershop.db-wal
 barbershop.db-shm
+db/schema.rb

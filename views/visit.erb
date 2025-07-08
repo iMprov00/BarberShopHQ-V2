@@ -7,17 +7,17 @@
 
   <div class="mb-3">
     <label class="form-label">Ваше имя</label>
-    <input type="text" class="form-control" name="client[name]" placeholder="Введите ваше имя" value="">
+    <input type="text" class="form-control" name="client[name]" placeholder="Введите ваше имя" value="<%= @c.name %>">
   </div>
 
   <div class="mb-3">
     <label class="form-label">Номер телефона</label>
-    <input type="text" class="form-control"  name="client[phone]" placeholder="Введите ваш номер телефона" value="">
+    <input type="text" class="form-control"  name="client[phone]" placeholder="Введите ваш номер телефона" value="<%= @c.phone %>">
   </div>
 
   <div class="mb-3">
     <label  class="form-label">Когда вас ждать?</label>
-    <input id="datetimepicker" type="text" class="form-control" name="client[datestamp]" placeholder="Введите дату и время записи" value="">
+    <input id="datetimepicker" type="text" class="form-control" name="client[datestamp]" placeholder="Введите дату и время записи" value="<%= @c.datestamp %>">
   </div>
 
   

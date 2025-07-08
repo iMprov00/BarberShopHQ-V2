@@ -45,7 +45,11 @@ end
 
 get '/barber/:id' do 
 
-	erb "Вы на стринице барбера"
+	@barber = Barber.find(params[:id])
+
+	
+
+	erb :barber
 
 end
 

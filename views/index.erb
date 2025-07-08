@@ -1,5 +1,5 @@
 
 <% @barbers.each do |barber| %>
-	<%= barber.name %>
+	<a href="/barber/<%= barber.id %>"><%= barber.name %></a>
 	<br>
 <% end %>
